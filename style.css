@@ -5,8 +5,8 @@ h1{
   text-align: center;
   /* border-style: solid;
   border-radius: 10px; */
-  margin-left: 500px;
-  margin-right: 500px;
+  /* margin-left: 500px;
+  margin-right: 500px; */
 }
 body{
   background-color: white;
@@ -40,6 +40,7 @@ section{
   justify-content: center;
   padding: 10px;
   flex-grow: 1;
+  object-position: top;
 }
 .small2{
   width:150px;
@@ -58,14 +59,22 @@ section{
   justify-content: center;
   padding: 10px;
   flex-grow: 1;
-  object-position: top;
+  object-position: center;
 }
 .medium3{
   width:100px;
-  height:100px;
+  height:150px;
   object-fit: cover;
   flex-direction: row;
   justify-content: center;
   padding: 10px;
   flex-grow: 1;
+  object-position: center;
+}
+#opright{
+  object-position: right;
+}
+}
+#optop2{
+  object-position: top;
 }
